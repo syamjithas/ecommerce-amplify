@@ -1,0 +1,22 @@
+type Address @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  addressLine1: String
+  addressLine2: String
+  addressLine3: String
+  city: String
+  state: String
+  country: String
+  zipCode: String
+  usersID: ID! @index(name: "byUsers")
+  addressType: String
+}
+
+type Users @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  firstName: String
+  lastName: String
+  emailId: String
+  phone: String
+  countryCode: String
+  Addresses: [Address] @hasMany(indexName: "byUsers", fields: ["id"])
+}

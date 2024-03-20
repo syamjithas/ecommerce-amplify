@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ecommerce-staging-155926-authRole",
+      "UnauthRoleArn": "arn:aws:iam::018385674655:role/amplify-ecommerce-staging-155926-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::018385674655:role/amplify-ecommerce-staging-155926-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-ecommerce-staging-155926-deployment",
+      "UnauthRoleName": "amplify-ecommerce-staging-155926-unauthRole",
+      "StackName": "amplify-ecommerce-staging-155926",
+      "StackId": "arn:aws:cloudformation:us-west-2:018385674655:stack/amplify-ecommerce-staging-155926/2a192650-e3ae-11ee-80dd-063e432f4183",
+      "AmplifyAppId": "d34g63m8gipnae"
+    },
+    "categories": {
+      "auth": {
+        "ecommerce": {}
+      }
+    }
+  }
+}
