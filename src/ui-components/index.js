@@ -36,4 +36,6 @@ export { default as SocialPost } from "./SocialPost";
 export { default as StandardCard } from "./StandardCard";
 export { default as Stat } from "./Stat";
 export { default as TallCard } from "./TallCard";
+export { default as UsersCreateForm } from "./UsersCreateForm";
+export { default as UsersUpdateForm } from "./UsersUpdateForm";
 export { default as studioTheme } from "./studioTheme";
